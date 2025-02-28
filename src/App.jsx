@@ -7,6 +7,12 @@ import GymTrackerCoverImage from "./assets/gym_tracker.png";
 function App() {
   return (
     <div className="app">
+
+      <div className="grid-background">
+          <div className="grid-lines horizontal"></div>
+          <div className="grid-lines vertical"></div>
+      </div>
+
       <header className="header">
         <div className="header-left">
           <p className="author">By Daniyar Orazov</p>
@@ -25,8 +31,7 @@ function App() {
           </a>
         </div>
       </header>
-      
-      
+
       <div className="projects-grid">
       <div className="project-card">
           <a href="https://qosylme-gym-trackerr.netlify.app/">
@@ -39,14 +44,14 @@ function App() {
           </a>
           <h3 className="project-title">Gym Tracker</h3>
         </div>
-        
+
         <div className="project-card">
           <div className="project-image coffee-menu">
             {/* Coffee menu image placeholder */}
           </div>
           <h3 className="project-title">Sholdeme Coffee Menu</h3>
         </div>
-        
+
         <div className="project-card">
           <div className="project-image ai-event">
             {/* AI event finding image placeholder */}
