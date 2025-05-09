@@ -34,7 +34,7 @@ function App() {
 
       <div className="projects-grid">
       <div className="project-card">
-          <a href="https://qosylme-gym-trackerr.netlify.app/">
+          <a href="https://gym-tracker-qosylme.netlify.app/">
             <div className="project-image coffee-menu">
               <img src={GymTrackerCoverImage} alt="Gym Tracker" />
               <div className="overlay">
